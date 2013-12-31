@@ -23,7 +23,7 @@ function love.load()
 
     for i=1, 100 do
         local size, x, y, angle = love.math.random(20, 80), love.math.random(150, 800), love.math.random(30, 400), love.math.random(0, 20)
-        entities[i] = Entity:new(world, size, x, y, angle)
+        entities[i] = Entity(world, size, x, y, angle)
     end
 
 end
