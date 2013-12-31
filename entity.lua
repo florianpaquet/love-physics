@@ -1,4 +1,4 @@
-Entity = {}
+local Entity = {}
 Entity.__index = Entity
 
 
